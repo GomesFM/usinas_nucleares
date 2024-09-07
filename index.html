@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Usinas Nucleares</title>
+</head>
+
+<body> 
+    <header>
+        <h1>Usinas Nucleares</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Uma visão geral sobre energia nuclear</h2>
+            <p>A energia nuclear, proveniente da fissão de átomos, representa uma fonte poderosa e concentrada de energia que impulsiona diversas nações. Atualmente, mais de 400 reatores nucleares estão em operação no mundo, gerando uma capacidade instalada de mais de 370.000 MW, com a Ásia, Europa e América do Norte liderando a produção. Dentro de uma usina nuclear, o combustível nuclear (geralmente urânio enriquecido) sofre fissão, liberando calor que é utilizado para gerar vapor e mover turbinas, produzindo eletricidade. Essa energia oferece vantagens como baixa emissão de gases do efeito estufa e alta densidade energética, mas também enfrenta desafios como o gerenciamento de resíduos radioativos, riscos de acidentes e a possibilidade de proliferação nuclear. Apesar desses desafios, a energia nuclear continua sendo uma fonte importante de energia, e o desenvolvimento de novas tecnologias busca mitigar os riscos e aumentar a eficiência dessa fonte.</p>
+            <a href="usinas_nucleares.jpg" target="_blank"><br>Clique aqui para visualizar a distribuição das usinas nucleares pelo mundo</a>
+            <p><br>Para saber informações sobre algum país, utilize a busca abaixo</p>
+        </section>
+        <section>
+            <input type="text" placeholder="Digite um país" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
+        <section class="tipo-reatores" id="tipo-reatores"></section>
+    </main>
+    <footer>
+        <p>2024 - Usinas Nucleares - Todos os direitos reservados - Entre em contato pelo email: fmgomes93@gmail.com - Foto de fundo de <a href="https://unsplash.com/pt-br/@llehotsky?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Lukáš Lehotský</a></p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
