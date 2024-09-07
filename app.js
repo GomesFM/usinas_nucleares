@@ -30,7 +30,7 @@ function pesquisar() {
         <div class="item-resultado">
           <h2>${pais.pais}</h2>
           <p class="descricao-meta">${pais.descricao}</p>
-          <a href=${pais.fonte} target="_blank">Fonte dos dados</a>
+          <a href=${pais.fonte} target="_blank"><br><br>Fonte dos dados<br><br></a>
           <button onclick="reatores()">Para saber mais sobre os tipos de reatores</button>
         </div>`;
     }
